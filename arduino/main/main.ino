@@ -10,11 +10,6 @@ void setup()
 }
 void loop()
 {
-//  digitalWrite(13, HIGH);
-//  digitalWrite(12, HIGH);
-//  digitalWrite(11, HIGH);
-//  digitalWrite(10, HIGH);
-//  digitalWrite(9, HIGH);
   if(Serial.available() > 0)  
   {
     Incoming_value = Serial.read();      //Read the incoming data and store it into variable Incoming_value
